@@ -90,7 +90,7 @@ const promptUser = () => {
           type: 'checkbox',
           name: 'license',
           message: 'Please choose all licenses that apply for this project',
-          choices: ['MIT', 'Apache 2.0', 'BSD', 'GPLv2', 'GPLv3', 'AGPLv3', 'None']
+          choices: ['MIT', 'Apache 2.0', 'GPLv3', 'BSD 3', 'None']
         },
         {
           type: 'input',
@@ -131,3 +131,5 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+promptUser();
