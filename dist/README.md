@@ -1,10 +1,11 @@
 
-  # undefined
 
-  # Challege 9
+  # ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+  # asd
 
   ## Description
-  Create an automated readme generator from COmmand Line with node
+  asd
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,24 +13,26 @@
   - [Contribution](#contribution)
   - [Test](#test)
   - [Questions](#questions)
-  - [License] (#license)
+  - [License](#license)
 
   ## Installation
-  download node.js, install requirer, and source code
+  asd
 
   ## Usage
-  to speed up and automate creating files through Javascripts runtime engine, node.js
+  asd
 
   ## Contribution
-  anyone can contribute, it is open source
+  asd
 
   ## Tests
-  run node index for prompts, answer them to see readme generated under dist
+  asd
 
   ## Questions
-  Github: github.com/harrison-daniel  
-  For any questions, feel free to reach out to me at hd4n@outlook.com
+    
+  For any questions, feel free to reach out to me at asd 
+
+  Github: github.com/asd
 
   ## License
-  undefined
+  [This application is covered under the MIT license. Click here for more information.](https://opensource.org/licenses/MIT)
 

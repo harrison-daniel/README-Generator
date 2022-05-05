@@ -2,9 +2,10 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const licenseArray = ["MIT", "Apache 2.0", "GPLv3", "BSD 3", "None"];
 
 // Create an array of questions for user input
-const promptUser = () => {
+ promptUser = () => {
   
 
     return inquirer.prompt([
@@ -89,8 +90,8 @@ const promptUser = () => {
         {
           type: 'checkbox',
           name: 'license',
-          message: 'Please choose all licenses that apply for this project',
-          choices: ['MIT', 'Apache 2.0', 'GPLv3', 'BSD 3', 'None']
+          message: 'Please select the licnese that this project is covered under',
+          choices: licenseArray,
         },
         {
           type: 'input',
@@ -128,7 +129,6 @@ const writeToFile = data => {
   fs.writeFile('./dist/README.md', data, err => {
     if (err) {
       console.log(err);
-      return;
     } else {
       console.log("Your README has been created")
     }
@@ -136,17 +136,18 @@ const writeToFile = data => {
 };
 
   
-
-
 // Function call to initialize app
 promptUser()
 // function to write README file
   .then(answers => {
+    console.log(answers.license)
     return generateMarkdown(answers);
     
+
+    
   })
-  .then(data => {
-    return writeToFile(data);
+  .then(answers => {
+    return writeToFile(answers);
   })
   .catch(err => {
     console.log(err);

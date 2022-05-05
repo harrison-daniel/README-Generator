@@ -1,12 +1,12 @@
 {
-  "name": "static-site",
+  "name": "README Generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "automated README generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "harrison-daniel",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
