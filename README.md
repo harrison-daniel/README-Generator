@@ -1,21 +1,21 @@
-# Professional README Generator 
+README Generator 
 
 
 ## Purpose
 
-Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+A command-line application that dynamically generates a README.md file using the Inquirer package.
 
 ## User Story
 
 AS A developer
 I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+SO THAT I can quickly create a README for a new project
 
 ## Acceptance Criteria
 
 GIVEN a command-line application that accepts user input  
 WHEN I am prompted for information about my application repository  
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
+THEN a high-quality, README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
 WHEN I enter my project title  
 THEN this is displayed as the title of the README  
 WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
